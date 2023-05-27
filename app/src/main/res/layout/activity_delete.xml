@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#648C89"
+    android:textAlignment="center"
+    tools:context=".Delete">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="167dp"
+        android:layout_marginBottom="393dp"
+        app:srcCompat="@drawable/img_20230523_wa0011" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="85dp"
+        android:includeFontPadding="false"
+        android:paddingTop="10dp"
+        android:text="Delete Book"
+        android:textAlignment="center"
+        android:textColor="#0C1E81"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="173dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="280dp"
+        android:layout_toStartOf="@+id/BnameTxt"
+        android:paddingTop="10dp"
+        android:text="Name Book :"
+        android:textAlignment="center"
+        android:textColor="#0C1E81"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/BnameTxt"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="275dp"
+        android:backgroundTint="#0C1E81"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#0C1E81" />
+
+    <Button
+        android:id="@+id/Bdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="153dp"
+        android:backgroundTint="#0C1E81"
+        android:text="Delete" />
+
+
+</RelativeLayout>

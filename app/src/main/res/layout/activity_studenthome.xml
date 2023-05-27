@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#274E4A"
+    tools:context=".Studenthome">
+
+    <Button
+        android:id="@+id/contactus"
+        android:layout_width="391dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#274E4A"
+        android:text="contact us"
+        android:textColor="#EAE6E0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lis"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="391dp"
+        android:layout_height="73dp"
+        android:backgroundTint="#274E4A"
+        android:text="issue history"
+        android:textColor="#F1EFEC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/lis"
+        android:layout_width="391dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#274E4A"
+        android:text="list Book"
+        android:textColor="#F1EFEC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Our Library"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="303dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="392dp"
+        android:src="@drawable/img_20230523_wa0010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="@+id/lis"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:background="#274E4A"
+        android:src="@android:drawable/ic_lock_lock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

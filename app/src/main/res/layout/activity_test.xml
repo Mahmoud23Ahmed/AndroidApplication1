@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#274E4A"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:padding="20dp"
+        android:text="Welcome To Our Library"
+        android:textAlignment="center"
+        android:textColor="#FFFDFD"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/_684441086547" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#274E4A"
+        android:text="Add Book Details"
+        android:textColor="#EAE4E4"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Bdelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#274E4A"
+        android:text="Delete Book"
+        android:textColor="#EAE4E4"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#274E4A"
+        android:text="View Book List"
+        android:textColor="#EAE4E4"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#274E4A"
+        android:text="List Of Borrow Student"
+        android:textColor="#EAE4E4"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#648C89"
+    tools:context=".Addbook">
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="423dp"
+        app:srcCompat="@drawable/img_20230523_wa0010" />
+
+    <EditText
+        android:id="@+id/QuantityTxt"
+        android:layout_width="232dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#0C1E81"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#0C1E81" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="#0C1E81"
+        android:text="Add"
+        android:textColor="#ECE7E7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="273dp"
+        android:layout_toStartOf="@+id/authorTxt"
+        android:text="Author :"
+        android:textAlignment="center"
+        android:textColor="#0C1E81"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="358dp"
+        android:layout_toStartOf="@+id/TitleText"
+        android:text="Title :"
+        android:textAlignment="center"
+        android:textColor="#0C1E81"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/TitleText"
+        android:layout_width="228dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="352dp"
+        android:backgroundTint="#0C1E81"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#0C1E81" />
+
+    <EditText
+        android:id="@+id/authorTxt"
+        android:layout_width="230dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="264dp"
+        android:backgroundTint="#0C1E81"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#0C1E81" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="186dp"
+        android:layout_toStartOf="@+id/QuantityTxt"
+        android:text="Quantity :"
+        android:textAlignment="center"
+        android:textColor="#0C1E81"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="247dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="586dp"
+        android:text="Add Book"
+        android:textAlignment="center"
+        android:textColor="#0C1E81"
+        android:textSize="34sp" />
+
+
+</RelativeLayout>
